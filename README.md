@@ -5,9 +5,9 @@
   </a>
 </div>
 
-<h2 align='center'>
+<h3 align='center'>
   A framework for developing websites and applications.
-</h2>
+</h3>
 
 <br>
 
@@ -57,6 +57,10 @@ w3bkit/
 You will find a full documentation [here](#).
 
 ## Contributing
+
+Do you want to become part of the team? We are hiring!
+
+Before you contact us, please read our [contributing guidelines](#). If you are still interested send us a message on [github](https://github.com/artlabs) or [twitter](https://twitter.com/artlabs3).
 
 ## Versioning
 

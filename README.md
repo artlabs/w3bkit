@@ -24,11 +24,11 @@
 
 ## Versioning
 
-`w3bkit` is maintained under the [Semantic Versioning](https://semver.org/).
+w3bkit is maintained under the [Semantic Versioning](https://semver.org/).
 
 ## Creators
 
-- **Benjamin Grill**  · [github](https://github.com/artlabs)
+- **Benjamin Grill**  **·** [github](https://github.com/artlabs) **·** [twitter](https://twitter.com/artlabs3)
 
 ## Copyright and license
 

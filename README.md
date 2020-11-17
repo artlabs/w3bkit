@@ -13,18 +13,54 @@
 
 ## Table of contents
 
+- [Quick start](#quick-start)
 - [Status](#status)
+- [Content scale](#content-scale)
+- [Features](#features)
+- [Bugs](#bugs)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
 - [Versioning](#versioning)
 - [Creators](#creators)
 - [Copyright and license](#copyright-and-license)
+
+## Quick start
+
+There are several options to start with:
+
+- Download the [latest release](#) :point_left: coming soon!
+- Clone the repo: `git clone https://github.com/artlabs/w3bkit.git`
 
 ## Status
 
 :exclamation: under development
 
+## Content scale
+
+With the download of the latest release you will find following folders and files:
+```text
+w3bkit/
+├─ css/
+│  ├─ w3b.css
+│  ├─ w3b.css.map
+│  ├─ w3b.min.css
+│  └─ w3b.min.css.map
+└─ ...
+```
+
+## Features
+
+## Bugs
+
+## Documentation
+
+You will find a full documentation [here](#).
+
+## Contributing
+
 ## Versioning
 
-w3bkit is maintained under the [Semantic Versioning](https://semver.org/).
+w3bkit is maintained under the [semantic versioning](https://semver.org/).
 
 ## Creators
 

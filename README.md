@@ -54,7 +54,7 @@ w3bkit/
 
 ## Documentation
 
-You will find a full documentation [here](#).
+You will find a full documentation [here](docs/w3bkit.md).
 
 ## Contributing
 

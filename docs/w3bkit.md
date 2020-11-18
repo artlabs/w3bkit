@@ -28,7 +28,7 @@ Hello, friend! Let us introduce w3bkit, an open source framework for developing 
 Copy-paste the `<link>` tag into your `<head>` section, before your other stylesheets, to use the design framework in your project.
 
 ```html
-<link rel='stylesheet' type='text/css' href='...'>
+<link rel='stylesheet' type='text/css' href='https://artlabs.github.io/cdn/w3b.min.css'>
 ```
 
 ### Starter template
@@ -44,7 +44,7 @@ Use a HTML5 doctype and set the charset and the viewport. After linking the CSS 
         <meta name='viewport' content='width=device-width, initial-scale=1'>
 
         <!-- w3bkit CSS -->
-        <link rel='stylesheet' type='text/css' href='...'>
+        <link rel='stylesheet' type='text/css' href='https://artlabs.github.io/cdn/w3b.min.css'>
     </head>
     <body>
         <h1>Hello, friend!</h1>

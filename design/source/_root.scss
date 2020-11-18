@@ -9,5 +9,11 @@
         }
     }
 
+    @if $provide-colors-gray {
+        @each $name, $color in map-get($colors, 'gray') {
+            --#{$prefix}-gray-#{$name}: #{$color};
+        }
+    }
+
 }
 

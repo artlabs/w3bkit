@@ -1,3 +1,13 @@
 // w3bkit root
 // -- defines CSS :root variables for further usage
 
+:root {
+
+    @if $provide-fonts {
+        @each $name, $fonts in $fonts {
+            --#{$prefix}-#{$name}: #{$fonts};
+        }
+    }
+
+}
+

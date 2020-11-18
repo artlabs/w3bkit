@@ -60,7 +60,7 @@ You will find a full documentation [here](#).
 
 Do you want to become part of the team? We are hiring!
 
-Before you contact us, please read our [contributing guidelines](#). If you are still interested send us a message on [github](https://github.com/artlabs) or [twitter](https://twitter.com/artlabs3).
+Before you contact us, please read our [contributing guidelines](.github/CONTRIBUTING.md). If you are still interested send us a message on [github](https://github.com/artlabs) or [twitter](https://twitter.com/artlabs3).
 
 ## Versioning
 

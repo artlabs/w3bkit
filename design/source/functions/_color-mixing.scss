@@ -1,0 +1,9 @@
+// w3bkit color mixing
+
+@function color-tint($color, $scale) {
+    @return mix(#fff, $color, $scale);
+}
+
+@function color-shade($color, $scale) {
+    @return mix(#000, $color, $scale);
+}

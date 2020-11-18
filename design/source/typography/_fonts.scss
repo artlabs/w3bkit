@@ -1,0 +1,7 @@
+// w3bkit fonts
+
+html { font-family: 'sans-serif'; }
+
+body {
+    font-family: unquote(map-get($fonts, 'sans-serif'));
+}

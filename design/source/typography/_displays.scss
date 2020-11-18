@@ -1,0 +1,14 @@
+// w3bkit displays
+
+%displays {
+    font-weight: map-get($font-weights, 'displays');
+    margin: 0 0 $displays-margin-bottom 0;
+}
+
+@for $i from 1 through 4 {
+    .d#{$i} { @extend %displays; }
+}
+
+@each $name, $size in map-get($font-sizes, 'displays') {
+    .#{$name} { font-size: #{$size}; }
+}

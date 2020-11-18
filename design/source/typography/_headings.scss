@@ -1,0 +1,14 @@
+// w3bkit headings
+
+%headings {
+    font-weight: map-get($font-weights, 'headings');
+    margin: 0 0 $headings-margin-bottom 0;
+}
+
+@for $i from 1 through 6 {
+    h#{$i}, .h#{$i} { @extend %headings; }
+}
+
+@each $name, $size in map-get($font-sizes, 'headings') {
+    #{$name}, .#{$name} { font-size: #{$size}; }
+}

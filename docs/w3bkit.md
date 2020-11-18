@@ -52,7 +52,7 @@ Use a HTML5 doctype and set the charset and the viewport. After linking the CSS 
 </html>
 ```
 
-Tada! You have created your first site with w3bkit. Sure, nothing special, but keep on going and explore the full potential of the w3bkit framework. **Check out our [templates]()!**
+Tada! You have created your first site with w3bkit. Sure, nothing special, but keep on going and explore the full potential of the w3bkit framework. **Check out our [templates](https://github.com/artlabs/w3bkit/tree/main/templates)!**
 
 ## Download
 

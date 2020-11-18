@@ -1,2 +1,15 @@
 // w3bkit containers
 // -- smart, self aligning flex containers
+
+%containers {
+    width: calc(100% - #{$container-padding});
+    margin: 0 auto $container-margin-bottom auto;
+    padding: 0 $container-padding / 2;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container { @extend %containers; }
+

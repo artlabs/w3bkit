@@ -1,2 +1,7 @@
 // w3bkit variables
+// -- defines variables to configurate the framework
 
+@use 'sass:map';
+
+// prefix for :root variables
+$prefix: w3b;

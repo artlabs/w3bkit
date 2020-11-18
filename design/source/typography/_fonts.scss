@@ -4,4 +4,5 @@ html { font-family: 'sans-serif'; }
 
 body {
     font-family: unquote(map-get($fonts, 'sans-serif'));
+    font-size: map-get($font-sizes, 'base');
 }

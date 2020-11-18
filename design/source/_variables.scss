@@ -9,8 +9,27 @@ $prefix: w3b;
 // options
 
 $provide-fonts: true;
+$provide-colors-gray: false;
 
 // color system
+
+$colors: (
+    'basics': (
+        'white': #ffffff,
+        'black': #000000,
+    ),
+    'gray': (
+        '1': color-shade(#fff, 88.4%),
+        '2': color-shade(#fff, 80%),
+        '3': color-shade(#fff, 70%),
+        '4': color-shade(#fff, 60%),
+        '5': color-shade(#fff, 50%),
+        '6': color-shade(#fff, 40%),
+        '7': color-shade(#fff, 30%),
+        '8': color-shade(#fff, 20%),
+        '9': color-shade(#fff, 10%),
+    ),
+);
 
 // typography - fonts
 

@@ -1,0 +1,10 @@
+// w3bkit calculations
+
+@function calc-container-width($breakpoint, $gutter) {
+    @return round($breakpoint / 100 * 99) - $gutter;
+}
+
+@function calc-columnm-width($column, $columns) {
+    @return percentage((1 / $columns) * $column);
+}
+

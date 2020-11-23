@@ -74,4 +74,15 @@ $displays-margin-bottom: .5rem;
 
 $container-padding: 30px;
 $container-margin-bottom: 1rem;
+$columns: 12;
+
+// containers - breakpoints
+
+$breakpoints: (
+    'xs': 360px,
+    'sm': 375px,
+    'md': 768px,
+    'lg': 812px,
+    'xl': 1024px,
+);
 

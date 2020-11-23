@@ -13,3 +13,45 @@
 
 .container { @extend %containers; }
 
+@each $breakpoint, $value in $breakpoints {
+    .container-#{$breakpoint} { @extend %containers; }
+}
+
+@media screen and (min-width: map-get($breakpoints, 'sm')) {
+    .container, .container-sm {
+        width: calc-container-width(map-get($breakpoints, 'sm'), $container-padding);
+    }
+}
+
+@media screen and (min-width: map-get($breakpoints, 'md')) {
+    .container, .container-sm, .container-md {
+        width: calc-container-width(map-get($breakpoints, 'md'), $container-padding);
+    }
+}
+
+@media screen and (min-width: map-get($breakpoints, 'lg')) {
+    .container, .container-sm, .container-md, .container-lg {
+        width: calc-container-width(map-get($breakpoints, 'lg'), $container-padding);
+    }
+}
+
+@media screen and (min-width: map-get($breakpoints, 'xl')) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        width: calc-container-width(map-get($breakpoints, 'xl'), $container-padding);
+    }
+}
+
+%columns {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+@for $i from 1 through $columns {
+    .col-#{$i} { @extend %columns; }
+    .col-#{$i} { width: calc-columnm-width($i, $columns); }
+    .col-order-#{$i} { order: #{$i}; }
+}
+
+.col-order-left { order: -1; }
+.col-order-right { order: 99; }
+

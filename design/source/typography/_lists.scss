@@ -1,0 +1,39 @@
+// w3bkit lists
+
+ul, ol {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin-bottom: 0;
+}
+
+.list-unstyled {
+    list-style-type: none;
+}
+
+.list-circle {
+    list-style-type: circle;
+}
+
+.list-square {
+    list-style-type: square;
+}
+
+.list-disc {
+    list-style-type: disc;
+}
+
+.list-dot li {
+    list-style-type: none;
+}
+
+.list-dot li:before {
+    content: '•';
+    padding-right: 8px;
+}
+

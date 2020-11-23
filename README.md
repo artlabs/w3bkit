@@ -60,7 +60,7 @@ You will find a full documentation [here](docs/w3bkit.md).
 
 Do you want to become part of the team? We are hiring!
 
-Before you contact us, please read our [contributing guidelines](.github/CONTRIBUTING.md). If you are still interested send us a message on [github](https://github.com/artlabs) or [twitter](https://twitter.com/artlabs3).
+Before you contact us, please read our [contributing guidelines](.github/CONTRIBUTING.md). If you are still interested send us a message on [twitter](https://twitter.com/artlabs3).
 
 ## Versioning
 
@@ -68,7 +68,7 @@ w3bkit is maintained under the [semantic versioning](https://semver.org/).
 
 ## Creators
 
-- **Benjamin Grill**  **·** [github](https://github.com/artlabs) **·** [twitter](https://twitter.com/artlabs3)
+- **Benjamin Grill**  **·** [github](https://github.com/benjamin-grill) **·** [twitter](https://twitter.com/artlabs3)
 
 ## Copyright and license
 

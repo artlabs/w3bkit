@@ -16,6 +16,17 @@
   --w3b-gray-7: #b3b3b3;
   --w3b-gray-8: #cccccc;
   --w3b-gray-9: #e6e6e6;
+  --w3b-theme-primary: #77f;
+  --w3b-theme-secundary: #00ccff;
+  --w3b-theme-accent: #ffff77;
+  --w3b-messages-emergency: #ff3333;
+  --w3b-messages-alert: #ff4d4d;
+  --w3b-messages-critical: #ff6666;
+  --w3b-messages-error: #ff8080;
+  --w3b-messages-warning: #ff7;
+  --w3b-messages-notice: #0f7;
+  --w3b-messages-info: #0f7;
+  --w3b-messages-debug: #bbb;
 }
 
 body {

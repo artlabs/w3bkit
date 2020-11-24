@@ -33,7 +33,7 @@ $colors: (
         '9': color-shade(#fff, 10%),
     ),
     'theme': (
-        'primary':   #0000ff,
+        'primary':   #77f,
         'secundary': #00ccff,
         'accent':    #ffff77,
     ),
@@ -42,10 +42,10 @@ $colors: (
         'alert':     color-tint(#f00, 30%),
         'critical':  color-tint(#f00, 40%),
         'error':     color-tint(#f00, 50%),
-        'warning': #ff0,
-        'notice':  #0f0,
-        'info':    #0f0,
-        'debug':   #aaa,
+        'warning': #ff7,
+        'notice':  #0f7,
+        'info':    #0f7,
+        'debug':   #bbb,
     ),
 );
 

@@ -4,6 +4,7 @@
 @use 'sass:map';
 
 // prefix for CSS :root variables
+
 $prefix: w3b;
 
 // options
@@ -28,6 +29,21 @@ $colors: (
         '7': color-shade(#fff, 30%),
         '8': color-shade(#fff, 20%),
         '9': color-shade(#fff, 10%),
+    ),
+    'theme': (
+        'primary':   #0000ff,
+        'secundary': #00ccff,
+        'accent':    #ffff77,
+    ),
+    'messages': (
+        'emergency': color-tint(#f00, 20%),
+        'alert':     color-tint(#f00, 30%),
+        'critical':  color-tint(#f00, 40%),
+        'error':     color-tint(#f00, 50%),
+        'warning': #ff0,
+        'notice':  #0f0,
+        'info':    #0f0,
+        'debug':   #aaa,
     ),
 );
 
@@ -74,6 +90,9 @@ $displays-margin-bottom: .5rem;
 
 $container-padding: 30px;
 $container-margin-bottom: 1rem;
+
+// containers - columns
+
 $columns: 12;
 
 // containers - breakpoints

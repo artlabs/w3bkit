@@ -37,3 +37,7 @@ ol ul {
     padding-right: 8px;
 }
 
+@each $name, $color in map-get($colors, 'theme') {
+    .list-#{$name} li:before { color: #{$color}; }
+}
+

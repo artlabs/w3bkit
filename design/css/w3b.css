@@ -17,8 +17,8 @@
   --w3b-gray-8: #cccccc;
   --w3b-gray-9: #e6e6e6;
   --w3b-theme-primary: #77f;
-  --w3b-theme-secundary: #00ccff;
-  --w3b-theme-accent: #ffff77;
+  --w3b-theme-secundary: #0cf;
+  --w3b-theme-accent: #ff7;
   --w3b-messages-emergency: #ff3333;
   --w3b-messages-alert: #ff4d4d;
   --w3b-messages-critical: #ff6666;
@@ -128,6 +128,270 @@ ol ul {
 .list-dot li:before {
   content: "•";
   padding-right: 8px;
+}
+
+.list-primary li:before {
+  color: #77f;
+}
+
+.list-secundary li:before {
+  color: #0cf;
+}
+
+.list-accent li:before {
+  color: #ff7;
+}
+
+.border {
+  border: 1px solid #1e1e1e;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-top-dotted {
+  border-style: dotted none none none;
+}
+
+.border-right-dotted {
+  border-style: none dotted none none;
+}
+
+.border-bottom-dotted {
+  border-style: none none dotted none;
+}
+
+.border-left-dotted {
+  border-style: none none none dotted;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-top-dashed {
+  border-style: dashed none none none;
+}
+
+.border-right-dashed {
+  border-style: none dashed none none;
+}
+
+.border-bottom-dashed {
+  border-style: none none dashed none;
+}
+
+.border-left-dashed {
+  border-style: none none none dashed;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-top-solid {
+  border-style: solid none none none;
+}
+
+.border-right-solid {
+  border-style: none solid none none;
+}
+
+.border-bottom-solid {
+  border-style: none none solid none;
+}
+
+.border-left-solid {
+  border-style: none none none solid;
+}
+
+.border-double {
+  border-style: double;
+}
+
+.border-top-double {
+  border-style: double none none none;
+}
+
+.border-right-double {
+  border-style: none double none none;
+}
+
+.border-bottom-double {
+  border-style: none none double none;
+}
+
+.border-left-double {
+  border-style: none none none double;
+}
+
+.border-groove {
+  border-style: groove;
+}
+
+.border-top-groove {
+  border-style: groove none none none;
+}
+
+.border-right-groove {
+  border-style: none groove none none;
+}
+
+.border-bottom-groove {
+  border-style: none none groove none;
+}
+
+.border-left-groove {
+  border-style: none none none groove;
+}
+
+.border-ridge {
+  border-style: ridge;
+}
+
+.border-top-ridge {
+  border-style: ridge none none none;
+}
+
+.border-right-ridge {
+  border-style: none ridge none none;
+}
+
+.border-bottom-ridge {
+  border-style: none none ridge none;
+}
+
+.border-left-ridge {
+  border-style: none none none ridge;
+}
+
+.border-inset {
+  border-style: inset;
+}
+
+.border-top-inset {
+  border-style: inset none none none;
+}
+
+.border-right-inset {
+  border-style: none inset none none;
+}
+
+.border-bottom-inset {
+  border-style: none none inset none;
+}
+
+.border-left-inset {
+  border-style: none none none inset;
+}
+
+.border-outset {
+  border-style: outset;
+}
+
+.border-top-outset {
+  border-style: outset none none none;
+}
+
+.border-right-outset {
+  border-style: none outset none none;
+}
+
+.border-bottom-outset {
+  border-style: none none outset none;
+}
+
+.border-left-outset {
+  border-style: none none none outset;
+}
+
+.border-none {
+  border-style: none;
+}
+
+.border-top-none {
+  border-style: none none none none;
+}
+
+.border-right-none {
+  border-style: none none none none;
+}
+
+.border-bottom-none {
+  border-style: none none none none;
+}
+
+.border-left-none {
+  border-style: none none none none;
+}
+
+.border-hidden {
+  border-style: hidden;
+}
+
+.border-top-hidden {
+  border-style: hidden none none none;
+}
+
+.border-right-hidden {
+  border-style: none hidden none none;
+}
+
+.border-bottom-hidden {
+  border-style: none none hidden none;
+}
+
+.border-left-hidden {
+  border-style: none none none hidden;
+}
+
+.border-0 {
+  border-width: 0;
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-3 {
+  border-width: 3px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-5 {
+  border-width: 5px;
+}
+
+.border-10 {
+  border-width: 10px;
+}
+
+.border-15 {
+  border-width: 15px;
+}
+
+.border-20 {
+  border-width: 20px;
+}
+
+.border-primary {
+  border-color: #77f;
+}
+
+.border-secundary {
+  border-color: #0cf;
+}
+
+.border-accent {
+  border-color: #ff7;
 }
 
 .container-xl, .container-lg, .container-md, .container-sm, .container-xs, .container {

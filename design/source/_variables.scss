@@ -88,6 +88,33 @@ $headings-margin-bottom: .5rem;
 
 $displays-margin-bottom: .5rem;
 
+// typography - borders
+
+$border-widths: (
+    '0': 0,
+    '1': 1px,
+    '2': 2px,
+    '3': 3px,
+    '4': 4px,
+    '5': 5px,
+    '10': 10px,
+    '15': 15px,
+    '20': 20px,
+);
+
+$border-styles: (
+    'dotted': dotted,
+    'dashed': dashed,
+    'solid': solid,
+    'double': double,
+    'groove': groove,
+    'ridge': ridge,
+    'inset': inset,
+    'outset': outset,
+    'none': none,
+    'hidden': hidden,
+);
+
 // containers
 
 $container-padding: 30px;

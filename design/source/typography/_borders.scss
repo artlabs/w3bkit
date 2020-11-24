@@ -1,0 +1,20 @@
+// w3bkit borders
+
+.border { border: 1px solid map-deep-get($colors, 'gray', '1'); }
+
+@each $name, $style in $border-styles {
+    .border-#{$name} { border-style: #{$style}; }
+    .border-top-#{$name} { border-style: #{$style} none none none; }
+    .border-right-#{$name} { border-style: none #{$style} none none; }
+    .border-bottom-#{$name} { border-style: none none #{$style} none; }
+    .border-left-#{$name} { border-style: none none none #{$style}; }
+}
+
+@each $name, $width in $border-widths {
+    .border-#{$name} { border-width: #{$width}; }
+}
+
+@each $name, $color in map-get($colors, 'theme') {
+    .border-#{$name} { border-color: #{$color}; }
+}
+

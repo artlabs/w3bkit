@@ -15,5 +15,17 @@
         }
     }
 
+    @if $provide-colors-theme {
+        @each $name, $color in map-get($colors, 'theme') {
+            --#{$prefix}-theme-#{$name}: #{$color};
+        }
+    }
+
+    @if $provide-colors-messages {
+        @each $name, $color in map-get($colors, 'messages') {
+            --#{$prefix}-messages-#{$name}: #{$color};
+        }
+    }
+
 }
 

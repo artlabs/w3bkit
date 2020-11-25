@@ -56,9 +56,47 @@ Tada! You have created your first site with w3bkit. Sure, nothing special, but k
 
 ## Download
 
+:exclamation: coming soon
+
+In the meantime you can clone the repository by running `git clone https://github.com/artlabs/w3bkit.git`
+
 ## Content
 
+Due to a broad functionality the w3bkit framework will become more extensive over time. Here is an overview what it contains already:
+
+```text
+w3bkit/
+├─ .github/
+│  └─ CONTRIBUTING.md
+├─ build/
+│  └─ compile-design.sh
+├─ design/
+│  ├─ css/
+│  │  ├─ w3b.css
+│  │  ├─ w3b.css.map
+│  │  ├─ w3b.min.css
+│  │  └─ w3b.min.css.map
+│  └─ source/
+│     └─ *.scss
+├─ docs/
+│  └─ w3bkit.md
+├─ misc/
+│  └─ logo.png
+├─ php/
+│  └─ inc/
+│     └─ *.inc.php
+├─ templates/
+│  └─ *.html
+├─ LICENSE
+├─ README.md
+└─ ...
+```
+
+To get a full insight please visit [github](https://github.com/artlabs/w3bkit).
+
 ## Customizing
+
+
 
 ## About
 

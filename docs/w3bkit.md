@@ -94,9 +94,23 @@ w3bkit/
 
 To get a full insight please visit [github](https://github.com/artlabs/w3bkit).
 
+### design/css
+
+We are offering precompiled stylesheets. To include the minified version into your projects, through our cdn, see [CSS](#css).
+
+### design/source
+
+If you want full control over the framework you have access to the sourcecode. The important file to customize the framework will be `_variables.scss`. To learn how to customize and compile the design framework on your own, see [customizing](#customizing).
+
+### php/inc
+
+In this folder you will find some useful php scripts to include into your project.
+
 ## Customizing
 
-
+:exclamation: TODO
 
 ## About
+
+The w3bkit framework has arised from a need of a slim and neat collection of code we write over and over again. From time to time a few lines were addded, which we thought that they will be useful in the future.
 

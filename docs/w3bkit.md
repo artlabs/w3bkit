@@ -100,7 +100,7 @@ We are offering precompiled stylesheets. To include the minified version into yo
 
 ### design/source
 
-If you want full control over the framework you have access to the sourcecode. The important file to customize the framework will be `_variables.scss`. To learn how to customize and compile the design framework on your own, see [customizing](#customizing).
+If you want full control over the framework you have access to the sourcecode. The important file to customize the framework will be `design/source/_variables.scss`. To learn how to customize and compile the design framework on your own, see [customizing](#customizing).
 
 ### php/inc
 

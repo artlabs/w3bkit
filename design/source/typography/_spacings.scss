@@ -1,0 +1,30 @@
+// w3bkit spacings
+
+@for $i from 0 through 5 {
+    .m-#{$i}, .margin-#{$i} { margin: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .mt-#{$i}, .margin-top-#{$i} { margin-top: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .mr-#{$i}, .margin-right-#{$i} { margin-right: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .mb-#{$i}, .margin-bottom-#{$i} { margin-bottom: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .ml-#{$i}, .margin-left-#{$i} { margin-left: $spacer-base * map-get($spacer-factors, #{$i}); }
+}
+
+.m-auto, .margin-auto { margin: auto; }
+.mt-auto, .margin-top-auto { margin-top: auto; }
+.mr-auto, .margin-right-auto { margin-right: auto; }
+.mb-auto, .margin-bottom-auto { margin-bottom: auto; }
+.ml-auto, .margin-left-auto { margin-left: auto; }
+
+@for $i from 0 through 5 {
+    .p-#{$i}, .padding-#{$i} { padding: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .pt-#{$i}, .padding-top-#{$i} { padding-top: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .pr-#{$i}, .padding-right-#{$i} { padding-right: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .pb-#{$i}, .padding-bottom-#{$i} { padding-bottom: $spacer-base * map-get($spacer-factors, #{$i}); }
+    .pl-#{$i}, .padding-left-#{$i} { padding-left: $spacer-base * map-get($spacer-factors, #{$i}); }
+}
+
+.p-auto, .padding-auto { padding: auto; }
+.pt-auto, .padding-top-auto { padding-top: auto; }
+.pr-auto, .padding-right-auto { padding-right: auto; }
+.pb-auto, .padding-bottom-auto { padding-bottom: auto; }
+.pl-auto, .padding-left-auto { padding-left: auto; }
+

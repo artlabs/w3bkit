@@ -115,6 +115,18 @@ $border-styles: (
     'hidden': hidden,
 );
 
+// typography - spacing
+
+$spacer-base: 1rem;
+$spacer-factors: (
+    '0': 0.00,
+    '1': 0.25,
+    '2': 0.50,
+    '3': 1.00,
+    '4': 1.50,
+    '5': 2.00,
+);
+
 // containers
 
 $container-padding: 30px;

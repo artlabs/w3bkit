@@ -104,7 +104,7 @@ If you want full control over the framework you have access to the sourcecode. T
 
 ### php/inc
 
-In this folder you will find some useful php scripts to include into your project.
+In this folder you will find some useful php scripts and snippets to include into your project.
 
 ## Customizing
 

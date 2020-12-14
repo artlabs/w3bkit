@@ -1,4 +1,10 @@
 // w3bkit tables
 
+.table {
+    border-collapse: collapse;
+}
 
+.table th, .table td {
+    border-bottom: 1px solid map-deep-get($colors, "gray", "5");
+}
 

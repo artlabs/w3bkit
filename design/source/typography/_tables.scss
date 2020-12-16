@@ -1,10 +1,30 @@
 // w3bkit tables
 
 .table {
+    caption-side: bottom;
     border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table caption {
+    padding: map-get($table, 'padding');
+    text-align: right;
+    color: map-deep-get($colors, "gray", "5");
 }
 
 .table th, .table td {
+    padding: map-get($table, 'padding');
     border-bottom: 1px solid map-deep-get($colors, "gray", "5");
+}
+
+.table tr:hover {
+    background-color: map-deep-get($colors, "gray", "9");
+}
+
+@each $name, $color in map-get($colors, "theme") {
+    .table-#{$name} th { background-color: $color; }
 }
 

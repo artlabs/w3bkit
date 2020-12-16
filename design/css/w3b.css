@@ -395,11 +395,39 @@ ol ul {
 }
 
 .table {
+  caption-side: bottom;
   border-collapse: collapse;
+  width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table caption {
+  padding: 15px;
+  text-align: right;
+  color: gray;
 }
 
 .table th, .table td {
+  padding: 15px;
   border-bottom: 1px solid gray;
+}
+
+.table tr:hover {
+  background-color: #e6e6e6;
+}
+
+.table-primary th {
+  background-color: #77f;
+}
+
+.table-secundary th {
+  background-color: #0cf;
+}
+
+.table-accent th {
+  background-color: #ff7;
 }
 
 .m-0, .margin-0 {

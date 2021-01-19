@@ -12,3 +12,4 @@
 @each $name, $size in map-get($font-sizes, 'displays') {
     .#{$name} { font-size: #{$size}; }
 }
+

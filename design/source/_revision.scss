@@ -2,3 +2,8 @@
 // -- rework of HTML elements and layout
 
 body { margin: 0; }
+
+@each $display in block, inline, inline-block, flex, grid, none {
+    .d-#{$display} { display: #{$display}; }
+}
+

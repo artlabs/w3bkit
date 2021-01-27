@@ -2,12 +2,12 @@
 
 .border { border: 1px solid map-deep-get($colors, 'gray', '1'); }
 
-@each $name, $style in $border-styles {
-    .border-#{$name} { border-style: #{$style}; }
-    .border-top-#{$name} { border-style: #{$style} none none none; }
-    .border-right-#{$name} { border-style: none #{$style} none none; }
-    .border-bottom-#{$name} { border-style: none none #{$style} none; }
-    .border-left-#{$name} { border-style: none none none #{$style}; }
+@each $style in dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden {
+    .border-#{$style} { border-style: #{$style}; }
+    .border-top-#{$style} { border-style: #{$style} none none none; }
+    .border-right-#{$style} { border-style: none #{$style} none none; }
+    .border-bottom-#{$style} { border-style: none none #{$style} none; }
+    .border-left-#{$style} { border-style: none none none #{$style}; }
 }
 
 @each $name, $width in $border-widths {

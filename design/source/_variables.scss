@@ -10,6 +10,7 @@ $prefix: w3b;
 // options
 
 $provide-fonts: true;
+$provide-colors-basic: true;
 $provide-colors-gray: true;
 $provide-colors-theme: true;
 $provide-colors-messages: true;
@@ -100,19 +101,6 @@ $border-widths: (
     '10': 10px,
     '15': 15px,
     '20': 20px,
-);
-
-$border-styles: (
-    'dotted': dotted,
-    'dashed': dashed,
-    'solid': solid,
-    'double': double,
-    'groove': groove,
-    'ridge': ridge,
-    'inset': inset,
-    'outset': outset,
-    'none': none,
-    'hidden': hidden,
 );
 
 // typography - spacing
